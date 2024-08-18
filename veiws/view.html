@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/view.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo.jpg" alt="logo" id="logo">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="add.html">add</a></li>
+            <li class="selected-page"><a href="view.html">view</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Members</h1>
+        <main>
+            <select name="role" id="role">
+                <option value="teacher" selected>Teacher</option>
+                <option value="assistant">assistant</option>
+                <option value="student">Student</option>
+            </select>
+            <button value="filter" id="filter">filter</button>
+        </main>
+        <div class="cards-container" id="fill">
+
+        </div>
+    </div>
+    <script src="js/view.js"></script>
+</body>
+
+</html>

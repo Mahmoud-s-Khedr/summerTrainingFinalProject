@@ -1,0 +1,73 @@
+body{
+    padding: 20px;
+    background: #eee;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+main{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 50px;
+    margin: 20px;
+}
+button,select{
+    width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid lightgray;
+    font-size: 15px;
+}
+#filter{
+    width: 200px!important;
+    border: 2px solid #3030ff;
+    color: #3030ff;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+}
+#filter:hover{
+    text-shadow: 0 0 3px #3030ff, 0 0 5px #3030ff;
+    box-shadow: 0 0 3px #3030ff, 0 0 5px #3030ff;
+}
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.cards-container .card{
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+.cards-container img{
+    width: 30px;
+}
+.photo{
+    width: 100%!important;
+}
+.delete{
+    width: 50%!important;
+    border: 2px solid #f00;
+    color: #f00;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 10px!important;
+}
+.delete:hover{
+    text-shadow: 0 0 3px #f00, 0 0 5px #f00;
+    box-shadow: 0 0 3px #f00, 0 0 5px #f00;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/add.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo.jpg" alt="logo" id="logo">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li class="selected-page"><a href="add.html">add</a></li>
+            <li><a href="view.html">view</a></li>
+        </ul>
+    </nav>
+
+    <div class="form">
+        <h2>Add new member</h2>
+        <div class="input" class="table">
+            <div class="input">
+                <label>First name</label>
+                <input type="text" name="first" placeholder="Ali" id="fname">
+            </div>
+            <div class="input">
+                <label>Last name</label>
+                <input type="text" name="last" placeholder="Ali" id="lname">
+            </div>
+
+            <div class="input">
+                <label>email</label>
+                <input type="email" id ="email" name="email" placeholder="example@email.com">
+            </div>
+
+            <div class="input">
+                <label>role</label>
+                <select name="role" id="role">
+                    <option value="teacher" selected>teacher</option>
+                    <option value="assistant">assistant</option>
+                    <option value="student">student</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <label>birthday</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+
+            <div class="input">
+                <button id="add" value="add" >Add member</button>
+            </div>
+
+        </div class="table">
+    </div>
+    <script src="js/add.js"></script>
+</body>
+
+</html>
