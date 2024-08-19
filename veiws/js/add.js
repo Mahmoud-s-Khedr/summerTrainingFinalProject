@@ -12,6 +12,8 @@ addData = (obj) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(obj)
+    }).then(() =>{
+        alert('data added successfully');
     });
 }
 button.addEventListener('click', () => {
